@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application>
+    <context id="userService">
+        com.lexus.service.impl.UserService
+    </context>
+    <context id="userDao">
+        com.lexus.dao.impl.UserDao
+    </context>
+    <context id="categoryService">
+        com.lexus.service.impl.CategoryService
+    </context>
+    <context id="categoryDao">
+        com.lexus.dao.impl.CategoryDao
+    </context>
+    <context id="routeService">
+        com.lexus.service.impl.RouteService
+    </context>
+    <context id="routeDao">
+        com.lexus.dao.impl.RouteDao
+    </context>
+    <context id="favoriteService">
+        com.lexus.service.impl.FavoriteService
+    </context>
+    <context id="favoriteDao">
+        com.lexus.dao.impl.FavoriteDao
+    </context>
+</application>
